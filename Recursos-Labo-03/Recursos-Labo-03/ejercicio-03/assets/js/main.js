@@ -6,10 +6,7 @@ const calculateFactorial = (num) => {
     for(let i=1;i<= num; i++){
         factorial *= i;
     }
-
-    return factorial;
- 
-   
+    return factorial; 
 }
 
 const requestNumber = () => {
